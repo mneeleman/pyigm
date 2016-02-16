@@ -16,6 +16,7 @@ pyigm depends on these packages:
 * `matplotlib <http://matplotlib.org/>`_  version 1.4 or later
 * `specutils <https://github.com/astropy/specutils>`_ version 0.2 or later
 * `linetools <https://github.com/linetools/linetools>`_ version 0.1 or later
+* `h5py <http://www.h5py.org/>`_ version 2.5 or later
 
 We strongly recommend that you use `Anaconda
 <https://www.continuum.io/downloads>`_ to install them. With Anaconda
@@ -40,6 +41,12 @@ This is also true for linetools.
 If you aren't using Anaconda then all of the dependencies can also be
 installed with pip.
 
+The following packages are required only for MCMC analysis of
+metallicity PDFs (e.g. Fumagalli+16):
+
+* `corner <https://github.com/dfm/corner.py>`_ v0.3 or later
+* `mpmath <http://www.mpmath.org/>`_ version 0.19 or later
+* `emcee <http://http://dan.iel.fm/emcee/current/>`_ version 2.1 or later
 
 Installing pyigm
 ================
